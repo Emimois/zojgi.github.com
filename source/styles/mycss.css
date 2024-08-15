@@ -1,0 +1,182 @@
+body{
+    font-family: 'Centery Gothic', sans-serif !important;
+}
+  
+  
+.nav-link {
+    color: rgb(143, 142, 142) !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(162, 238, 81) !important;
+
+}
+
+.navbar-brand img {
+    width: 55px;
+    height: 55px;
+}
+
+.navbar-toggler {
+    background-color: rgb(162, 238, 81);
+}
+
+.navbar-nav img {
+    width: 40px;
+    height: 40px;
+}
+
+body.black-background {
+    background: black !important;
+}
+
+body {
+    background: linear-gradient(90deg, #0e710d 13%, #dbdbdb 76%);
+}
+
+.carousel.slide{
+    padding: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #dbdbdb 76%;
+    background-image: none; /* Убирает стандартную иконку */
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    transform: rotate(270deg);
+}
+
+.carousel-control-next-icon::after {
+    transform: rotate(-90deg);
+}
+
+#disclaimer {
+    /* Пример стиля для нового div */
+    position: relative;
+    padding: 0.5px; /* Настройте отступы по необходимости */
+    background:  #dbdbdb 76%;
+    z-index: 4; /* Убедитесь, что z-index не конфликтует с другими элементами */
+}
+
+#disclaimer h2, #disclaimer h4 {
+    margin: 0; /* Убедитесь, что отступы для заголовков корректны */
+    padding: 0;
+}
+
+#disclaimer h4 {
+    font-size: 1rem; /* Уменьшает размер шрифта заголовка h4 */
+  }
+  
+  #disclaimer h5 {
+    font-size: 0.875rem; /* Уменьшает размер шрифта заголовка h5 */
+  }
+
+.margin-5 {
+    margin: 5px; /* Пример стиля для класса margin-5 */
+}
+
+.text-21{
+    color: black !important;
+    font-family: 'Century Gothic', sans-serif !important;
+
+}
+
+.text-6{
+    font-family: 'Century Gothic' !important;
+    color: black !important;
+}
+
+.text-34{
+    font-family: 'Century Gothic' !important;
+}
+
+.text-22{
+    font-family: 'Century Gothic' !important;
+    color: black !important;
+}
+
+.text-18{
+    font-family: 'Century Gothic' !important;
+    color: beige !important;
+}
+
+.text-23{
+    font-family: 'Century Gothic' !important;
+}
+.text-24{
+    font-family: 'Century Gothic' !important;
+    color:beige !important;
+}
+
+.text-25{
+    font-family: 'Century Gothic' !important;
+}
+
+.text-26{
+    font-family: 'Century Gothic' !important;
+}
+
+.text-33{
+    font-family: 'Century Gothic' !important;
+}
+
+
+.split-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; /* Занимает всю высоту экрана */
+  }
+
+  .image-section {
+    width: 70%; /* Фиксированная ширина для изображения */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc; /* Рамка для изображения */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для изображения */
+  }
+
+  .text-section {
+    width: 60%; /* Остальная часть экрана для текста */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Monserrat' !important;
+  }
+
+  .text-content {
+    font-size: 1.5rem; /* Размер шрифта для текста */
+    line-height: 1.5; /* Межстрочный интервал для лучшей читаемости */
+
+
+  }
+
+  @media (max-width: 768px) {
+    .split-container {
+      flex-direction: column; /* Меняет направление флекс-контейнера на колонку для мобильных устройств */
+      height: auto; /* Сбрасывает высоту для вертикальной верстки */
+    }
+
+    .image-section, .text-section {
+      width: 100%; /* Ширина секций на 100% */
+      padding: 10px; /* Уменьшает отступы на мобильных устройствах */
+    }
+
+    .text-content {
+      font-size: 1rem; /* Уменьшает размер шрифта на мобильных устройствах */
+    }
+  }
